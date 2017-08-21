@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String i=paper.getText().toString();
-               j=Integer.parseInt(i);
+                j=Integer.parseInt(i);
                 Intent intent=new Intent(MainActivity.this,paper_input.class);
                 startActivity(intent);
 
